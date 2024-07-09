@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg,rgba(2, 0,36, 1),39%,rgba(0, 0,0, 0.142093),55%,rgba(0,212,215,1)); 
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+header p{
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px auto;
+    min-height: 80vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+h4{
+    /* text-align: center; */
+    font-weight: 900;
+    font-size: 1.7rem;
+    padding: 0 0 1.2rem 13rem;
+    text-decoration: underline;
+    color: aqua;
+}
+.table-container h4{
+    color: rgb(28, 25, 83);
+    text-shadow: 1.2px 1.2px black ;
+
+}
+.data{
+    width: 50%;
+    color: white;
+    font-size: 21px;
+    text-shadow: 3px 1px black ;
+}
+
+form{
+    padding-left: 90px;
+}
+
+.data input{
+    width: 60%;
+    height: 2rem;
+    padding: .5rem;
+    margin: .8rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 2px black;
+    font-size: 18px;
+}
+
+.button{
+    padding-left: 7.7rem;
+}
+
+#btn{ 
+    text-align: center;
+    padding: .4rem;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aqua;
+    margin: 1rem;
+
+
+}
+#btn:hover{
+    background-color: rgb(124, 236, 19);
+    color: rgb(14, 13, 13);
+    
+}
+.table-container{
+    max-height: 520px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+table{
+    width: 33rem;
+    /* border-collapse: collapse; */
+
+}
+
+td  {
+    border: 2px solid #110f0f;
+    padding: 0 10px;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+
+th {
+    border: 2px solid #110f0f;
+    border-radius: 2px;
+    padding: 4px;
+    text-align: left;
+    background-color: rgb(31, 27, 99);
+    color: white;
+}
+
+.bttn
+{
+    background-color: rgb(31, 27, 99);
+    padding: 1px;
+    margin: 1px;
+    width: 3rem;
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.bttn:hover{
+    border: 1px solid white;
+   
+}
+
+.footer
+{   background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 3.1rem;
+}
+
+.copy
+{
+  color: #ebe1e1;
+  margin: 1rem 45rem 0 0;
+  
+}
+.contact-icon
+{
+    font-size: 2.2rem;
+    display: flex;
+     margin: .6rem;
+    transition: all .45s ease;
+}
+
+.contact-icon i
+{   color: #bc0bf1;
+    margin-left: 1rem;
+    
+}
+
+.contact-icon i:hover{
+    color:#b0f540;
+    font-size: 2.8rem;
+
+}

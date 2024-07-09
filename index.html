@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="icon" href="student.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--          A brief description summarizing the system's functionalities.
+
+    A student registration system web page with CRUD functionalities in javascript enables the management of student records through four primary operations: Create,Read,Update, and Delete.Users can add new student details,view and modify student information,and remove records as needed.The interface is web-based,designed with HTML,CSS and javascript for ease of use and accessibility.   -->
+
+
+</head>
+<body>
+
+    <header>
+     <h1>Student Registration System</h1> 
+     <p>Register new students and manage their details effectively.</p>
+   </header>
+
+   <main>
+    <div class="container"> 
+        <div class="data">
+        <h4>New Student</h4>    
+
+        <form id="studentform">
+
+        <p>Student Name:</p>
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+
+        <p>Email Id:</p>
+        <input type="email" id="email" placeholder="Email" required>
+           
+        <p>Student Id:</p>
+        <input type="number" id="ids" placeholder="Enter Your Id" required>
+
+        <p>Class:</p>
+        <input type="text" id="cls" placeholder="Enter Your Class" required>
+           
+        <p>Contact No.:</p>
+         <input type="number" id="contact" placeholder="Enter Your Contact No." required>
+           
+        <div class="button"> <button type="submit" id="btn">Add Student</button></div>
+
+        </form>
+
+        </div>
+        
+
+        <section>
+          
+        <div class="table-container">
+         <h4>Registered Students</h4>   
+             
+        <table class="studentlist">
+        <thead>
+              <tr>
+                 <th>Name</th>
+                 <th>Email</th>
+                 <th>Id</th>
+                 <th>Class</th>
+                 <th>Contact No.</th>
+                 <th>Actions</th>
+              </tr>
+         </thead>   
+           
+         <tbody id="tablelist"> 
+           <!-- student data will be dynamically added here -->
+        </tbody> 
+        </table>
+        </div>
+
+    </section>
+
+    </div>
+    </main>
+     <!-- footer page coding -->
+  <footer>
+       <div class="footer">
+       <div class="copy">
+        <h6> ©Copyright 2024,Inc. or its affiliates</h6>
+        <h6>Student Registration System</h6>
+       </div>
+       <div class="contact-icon">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-gmail"></i></a>
+        <a href="#"><i class="bx bxl-whatsapp"></i></a>
+       </div>
+       </div>
+   </footer>
+
+    <!-- add javascript file to html file -->
+        
+     <script src="script.js"></script>
+
+</body>
+</html>
